@@ -61,3 +61,15 @@ let alien = {
 for (let key in alien.laptop) {
   console.log(key, alien.laptop[key]);
 }
+
+let num1 = 4;
+if (num1 % 2 === 0) {
+  console.log("num1 is even");
+} else {
+  console.log("num1 is odd");
+}
+
+let num2 = 9;
+let result;
+result = num2 % 3 === 0 ? "even" : "odd";
+console.log(result);
